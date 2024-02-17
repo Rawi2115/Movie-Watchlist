@@ -24,7 +24,7 @@ header {
 .container {
     display: flex;
     gap: 2em;
-    min-width: 400px;
+    min-width: 370px;
     max-width: 500px;
 }
 h1 {
