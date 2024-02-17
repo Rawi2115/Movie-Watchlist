@@ -1,6 +1,8 @@
 # Movie Search and Watchlist Website
 
-A website where you can search for any movie and add them to a watchlist that you can view at any time
+A website where you can search for any movie and add them to a watchlist that you can view at any time.
+
+Live [Demo](https://rawi2115.github.io/Movie-Watchlist/)
 
 ## Features
 
