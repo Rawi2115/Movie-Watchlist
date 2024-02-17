@@ -34,7 +34,7 @@ header{
     justify-content: center;
     align-items: center;
     max-width: 500px;
-    width: 400px;
+    width: 370px;
     gap: 1.5em;
 }
 .container {
@@ -87,7 +87,7 @@ main {
     max-height: 220px;
     gap: 1.25em;
     margin: 0 auto;
-    min-width:400px;
+    min-width: 350px;
     max-width:600px
 }
 .movie.details {
