@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+  }
+body,html {
+    padding: 0;
+    margin: 0;
+}
+body {
+    min-height: 100vh;
+    font-family: "Inter", sans-serif;
+    background-color: white;
+}
+.fa-film{
+    font-size: 50px;
+    color: grey;
+}
+header {
+    color: white;
+    background-color: black;
+    height: 250px;
+    display: grid;
+    place-content: center;
+}
+.container {
+    display: flex;
+    gap: 2em;
+    width: 450px;
+    max-width: 500px;
+}
+h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+a {
+    color: white;
+    text-decoration: none;
+    align-self: center;
+}
+main {
+    color:
+    black;
+    padding: 1em;
+}
+.watchlist {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.movie {
+    display: flex;
+    max-height: 220px;
+    gap: 1.25em;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.movie.details {
+    padding: 1em;
+    gap: 0.5em;
+}
+.movie p {
+    margin: 0;
+}
+.movie img {
+    max-width: 125px;
+}
+.movie h2 {
+    margin: 0;
+}
+.fa-circle-minus {
+    cursor: pointer;
+    text-align: end;
+    width: 100%;
+}
+.empty {
+    margin: 0 auto;
+    text-align: center;
+}
