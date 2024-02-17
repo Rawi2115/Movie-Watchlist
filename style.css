@@ -86,14 +86,13 @@ main {
     display: flex;
     max-height: 220px;
     gap: 1.25em;
-    max-width: 600px;
     margin: 0 auto;
-    min-width: 600px;
+    min-width:400px;
+    max-width:600px
 }
 .movie.details {
     padding: 1em;
     gap: 0.5em;
-    min-width: 100%;
 }
 .movie p {
     margin: 0;
