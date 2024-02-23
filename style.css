@@ -113,3 +113,6 @@ main {
     }
     
 }
+.movie-fetch-failed {
+    text-align:center;
+}
