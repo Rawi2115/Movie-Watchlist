@@ -116,3 +116,6 @@ main {
 .movie-fetch-failed {
     text-align:center;
 }
+.fa-solid:active {
+    color: gray;
+}
