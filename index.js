@@ -27,11 +27,12 @@ submitBtnEl.addEventListener('click',async()=>{
             </div>
                 
             `
+            searchResult.innerHTML = movieHtml
         }
-        searchResult.innerHTML = movieHtml
+        
     } else if (data.Response == "False") {
         searchResult.innerHTML = `
-            <p>Movie not found</p>
+            <p class="movie-fetch-failed">Movie not found</p>
         `
     }
     
